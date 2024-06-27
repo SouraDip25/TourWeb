@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yatra Sathi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="scroll-watcher"></div>
+    <header id="home">
+      <nav>
+        <div class="nav-container container">
+          <h1 class="slideRight">Yatra<span>S</span>athi</h1>
+          <ul class="nav-items">
+            <li class="slidedown"><a href="#home" class="nav-items-link">Home</a></li>
+            <li class="slideup"><a href="#about" class="nav-items-link">About Us</a></li>
+            <li class="slidedown"><a href="#packages" class="nav-items-link">Packages</a></li>
+            <li class="slideup"><a href="#services" class="nav-items-link">Services</a></li>
+            <li class="slidedown"><a href="#contact" class="nav-items-link">Contact Us</a></li>
+          </ul>
+          <i class="fa-solid fa-bars-staggered nav-icon" style="display: none;" onclick="openNav()"></i>
+        </div>
+      </nav>
+      <div class="header-main container">
+        <div class="header-main-text">
+          <p class="slideleft">Let's</p>
+          <h2 class="slideRight">Travel and Explore<br />India<br />with Ease.</h2>
+          <p class="slideleft" >
+            We take the baggage out of travel planning and let you explore India
+            hassle-free.
+          </p>
+          <button class="btn slideup"><a href="#packages">Book Now</a></button>
+        </div>
+        
+      </div>
+
+      <!-- mobile nav -->
+      <ul class="mobile-nav">
+            <li><a href="#home" class="nav-items-link" onclick="openNav()">Home</a></li>
+            <li><a href="#about" class="nav-items-link" onclick="openNav()">About Us</a></li>
+            <li><a href="#packages" class="nav-items-link" onclick="openNav()">Packages</a></li>
+            <li><a href="#services" class="nav-items-link" onclick="openNav()">Services</a></li>
+            <li><a href="#contact" class="nav-items-link" onclick="openNav()">Contact Us</a></li>
+      </ul>
+    </header>
+
+    <main>
+        <section class="about container" id="about">
+            <div class="about-text scroll-animation">
+                <h2>Learn more about <br><span>Yatra<span class="main-color">S</span>athi</span></h2>
+                <p>Our team is made up of passionate travelers who have a wealth of knowledge and experience in the travel industry. From our expert travel advisors to our friendly customer service team, we are all committed to making your travel experience unforgettable.</p>
+            </div>
+
+            
+            <div class="about-image scroll-animation"><img src="/images/about.webp" alt=""></div>
+
+        </section>
+
+        <section class="mini-services container">
+            <h2>Start Your Vacation with Lots of Services!</h2>
+            <div class="mini-services-icons scroll-animation">
+                <div class="mini-services-icon-box">
+                    <img src="/images/cruise.png" alt="">
+                    <h3>Ship Cruises</h3>
+                    <p>50+ Properties</p>
+                </div>
+                <div class="mini-services-icon-box">
+                    <img src="/images/food.png" alt="">
+                    <h3>Food Tours</h3>
+                    <p>150+ Properties</p>
+                </div>
+                <div class="mini-services-icon-box">
+                    <img src="/images/summer.png" alt="">
+                    <h3>Summer Rest</h3>
+                    <p>150+ Properties</p>
+                </div>
+                <div class="mini-services-icon-box">
+                    <img src="/images/mountains.png" alt="">
+                    <h3>Mountains Tours</h3>
+                    <p>150+ Properties</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="upcoming-packages container" id="packages">
+          <h2>Our Upcoming Tour Packages</h2>
+          <div class="packages-carts">
+            <div class="cart scroll-animation">
+              <img src="/images/lakhwadeep.webp" alt="">
+              <h3><i class="fa-solid fa-location-dot icon"></i>Lakshadweep</h3>
+              <button class="btn">Book Now</button>
+            </div>
+            <div class="cart scroll-animation">
+              <img src="/images/ladakh.webp" alt="">
+              <h3><i class="fa-solid fa-location-dot icon"></i>Ladakh</h3>
+              <button class="btn">Book Now</button>
+            </div>
+            <div class="cart scroll-animation">
+              <img src="/images/andaman.webp" alt="">
+              <h3><i class="fa-solid fa-location-dot icon"></i>Andaman</h3>
+              <button class="btn">Book Now</button>
+            </div>
+          </div>
+        </section>
+        <section class="popular-packages container" id="packages">
+          <h2>Our Most Popular Tour Packages</h2>
+          <div class="packages-carts">
+            <div class="cart scroll-animation">
+              <img src="/images/kashmir.webp" alt="">
+              <h3><i class="fa-solid fa-location-dot icon"></i>Kashmir</h3>
+              <button class="btn">Book Now</button>
+            </div>
+            <div class="cart scroll-animation">
+              <img src="/images/rajsthan.webp" alt="">
+              <h3><i class="fa-solid fa-location-dot icon"></i>Rajasthan</h3>
+              <button class="btn">Book Now</button>
+            </div>
+            <div class="cart scroll-animation">
+              <img src="/images/shimla.webp" alt="">
+              <h3><i class="fa-solid fa-location-dot icon"></i>Shimla</h3>
+              <button class="btn">Book Now</button>
+            </div>
+            <div class="cart scroll-animation">
+              <img src="/images/kerala.webp" alt="">
+              <h3><i class="fa-solid fa-location-dot icon"></i>Kerala</h3>
+              <button class="btn">Book Now</button>
+            </div>
+            <div class="cart scroll-animation">
+              <img src="/images/sikkim.webp" alt="">
+              <h3><i class="fa-solid fa-location-dot icon"></i>Sikkim</h3>
+              <button class="btn">Book Now</button>
+            </div>
+            <div class="cart scroll-animation">
+              <img src="/images/uttar.webp" alt="">
+              <h3><i class="fa-solid fa-location-dot icon"></i>Varanasi</h3>
+              <button class="btn">Book Now</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="banner">
+          <div class="banner-items">
+            <h2>Discount 10-30% Off</h2>
+          <p>Travel India on a budget with our unbeatable discounted travel deals. Whether you are looking for a last-minute escape or planning ahead, we have got you covered with incredible discounts on flights,hotels and packages. Don't wait book now and experience the adventure of a lifetime without breaking the bank</p>
+          <button class="btn"><a href="#packages">Book Now</a></button>
+          </div>
+          
+        </section>
+
+        <section class="services container" id="services">
+
+          <h2>Why Choose Us</h2>
+          <p>We have the best prices for tours, and a huge selection of destinations will not leave indifferent even avid tourist.</p>
+
+
+          <div class="services-items">
+
+
+            <div class="services-items-box-one"></div>
+
+            <div class="services-items-box-two">
+              <i class="fa-solid fa-earth-americas service-icon"></i>
+              <h3>Passionate Travel</h3>
+              <p>Fuel your passion for adventure and discover new horizons</p>
+            </div>
+
+
+            <div class="services-items-box-three scroll-animation"></div>
+
+            <div class="services-items-box-four scroll-animation"></div>
+            
+            <div class="services-items-box-five">
+              <i class="fa-solid fa-map-location-dot service-icon"></i>
+              <h3>Beautiful Places</h3>
+              <p>Uncover the India's most breathtakingly beautiful places</p>
+            </div>
+
+
+
+          </div>
+
+
+           
+
+        </section>
+
+        <section class="contact container" id="contact">
+          <div class="contact-box">
+            <div class="contact-left scroll-animation">
+              <p>Call Us Anytime</p>
+              <p>+91 123456987</p>
+              <p>We are also active on</p>
+              <div class="contact-icon-box">
+                <i class="fa-brands fa-whatsapp contact-icon"></i>
+                <i class="fa-brands fa-instagram contact-icon"></i>
+                <i class="fa-brands fa-facebook contact-icon"></i>
+                <i class="fa-brands fa-x-twitter contact-icon"></i>
+              </div>
+            </div>
+            <div class="contact-right scroll-animation">
+              <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <p>Send a message here</p>
+                <input type="hidden" name="access_key" value="f16569b1-a83c-4fab-9b14-c03a0ba78092">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <textarea name="message" placeholder="Write a message" rows="5"></textarea>
+                <button type="submit" class="btn">Submit</button>
+              </form>
+            </div>
+          </div>
+          
+
+        </section>
+    </main>
+
+    <footer>
+      <div class="footer-container container">
+        <ul>
+          <h3>Ouick Links</h3>
+          <li class="footer-links"><a href="#home">Home</a></li>
+          <li class="footer-links"><a href="#about">About</a></li>
+          <li class="footer-links"><a href="#packages">Packages</a></li>
+          <li class="footer-links"><a href="#services">Services</a></li>
+          <li class="footer-links"><a href="#contact">Contact</a></li>
+        </ul>
+        <ul>
+          <h3>Contact Info</h3>
+          <li>111 North Street</li>
+          <li>Kolkata</li>
+          <li>West Bengal</li>
+          <li>91+ 10000589870</li>
+          <li>91+ 20000000020</li>
+        </ul>
+        <ul>
+          <h3>Connect US</h3>
+          <li class="footer-links"><i class="fa-brands fa-whatsapp footer-icon"></i></li>
+          <li class="footer-links"><i class="fa-brands fa-facebook footer-icon"></i></li>
+          <li class="footer-links"><i class="fa-brands fa-square-x-twitter footer-icon"></i></li>
+          <li class="footer-links"><i class="fa-brands fa-youtube footer-icon"></i></li>
+          <li class="footer-links"><i class="fa-brands fa-instagram footer-icon"></i></li>
+        </ul>
+      </div>
+      <p>Copyright &copy;2024 All rights reserved</p>
+    </footer>
+  
+
+
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
