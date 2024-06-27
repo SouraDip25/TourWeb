@@ -40,7 +40,7 @@ img {
 
 header {
   height: 100vh;
-  background-image: url(/images/hero-2.webp);
+  background-image: url(./images/hero-2.webp);
   background-size: cover;
   /* position: relative; */
 }
@@ -236,7 +236,7 @@ nav {
 .banner {
   margin-top: 8rem;
   padding: 2rem;
-  background-image: url(/images/banner.webp);
+  background-image: url(./images/banner.webp);
   background-size: cover;
   display: flex;
   justify-content: flex-end;
@@ -284,13 +284,13 @@ nav {
 }
 .services-items-box-one {
   grid-row: span 2;
-  background-image: url(/images/service-image-one.webp);
+  background-image: url(./images/service-image-one.webp);
 }
 .services-items-box-three {
-  background-image: url(/images/service-image-two.webp);
+  background-image: url(./images/service-image-two.webp);
 }
 .services-items-box-four {
-  background-image: url(/images/service-image-three.webp);
+  background-image: url(./images/service-image-three.webp);
 }
 .service-icon {
   color: var(--main-color);
